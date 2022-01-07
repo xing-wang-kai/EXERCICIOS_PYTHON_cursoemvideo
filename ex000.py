@@ -1,0 +1,5 @@
+print("ola mundo!")
+nome = input("digite seu nome: ")
+idade = input("digite sua idade: ")
+peso = input("digite seu peso: ")
+print("Olá {} seja bem vindo!".format(nome), f"seu peso é {peso}", "e quanto sua idade você tem %s" %(idade))
